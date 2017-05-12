@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    	<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Abrial Meyer." />
+    	<title>Abrial Meyer</title>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/style.css">
+
+        <script src="js/jquery.min.js"></script>
+        <script src="js/handlebars.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/projects.js"></script>
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+
+
+             <!-- NAVIGATION -->
+        
+        <div class="col-lg-9 col-lg-offset-1">
+            <!-- NAME HEADER -->
+            <div class="row">
+                    <div class="col-med-12">
+                        <div id="name"> 
+                            <h2>Abrial Meyer </h2>
+                            <p> Environmentalist NYC </p>
+                        </div>
+                    </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-12 col-xs-12">
+                    
+                    <div class="col-md-12">     
+                        <div id="proj-list-container">
+                            <div id="project-list">  </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="col-md-8 col-sm-12 col-xs-12">
+                    <div id="project"> </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div id="footer" class="col-md-12 col-sm-12 col-xs-12">
+                    <div id="contact">
+                        <ul>
+                            <li id="about"> About </li>
+                            <li id="email"> Email </li>
+                            <li id="resume"> Resume </li>
+ 
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- TEMPLATES -->
+
+        <script id="nav-template" type="text/x-handlebars-template">
+            <p class="info">filter by type</p>
+            {{#each types}}
+                <div class="type" data-type="{{this}}">
+                    {{this}}
+                </div>
+            {{/each}}
+        </script>
+
+        <script id="project-list-template" type="text/x-handlebars-template">
+            <p> projects </p>
+            <div id="main-list">
+                {{#each main}}
+                    <div class="project-nav" data-id="{{@index}}">
+                        {{title}}
+                    </div>
+                    
+                {{/each}}
+            </div>
+        </script>
+
+
+        <script id="project-template" type="text/x-handlebars-template">
+ 
+            <div class="project-container" data-id="{{@index}}">
+                <div class="title {{type}}">
+                    <p>{{title}}</p>
+                </div>
+                
+                <div class="description">
+                    {{#each description}}
+                        <p>{{this}}</p>
+                    {{/each}}
+
+                    {{#if haslink}}
+                        {{#each links}}
+                            Link : <a href="{{this.link}}"> {{this.text}} </a> <br>
+                        {{/each}}
+                    {{/if}}
+                </div>
+
+                {{#each images}}
+                    <img class="col-md-12 col-xs-12" src="{{this}}" />
+                {{/each}} 
+                
+                
+            </div>
+
+        </script>
+
+
+    </body>
+</html>

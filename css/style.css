@@ -1,0 +1,153 @@
+@import url(http://fonts.googleapis.com/css?family=Anonymous+Pro:400,400italic);
+
+body {
+	font-family:'Anonymous Pro', monospace;
+	text-transform: uppercase;
+	font-size: 1em;
+	margin: 0;
+	color: black;
+}
+
+div {
+	cursor: default;
+}
+
+#nav {
+	/*width: 100%;*/
+}
+
+code {
+	display: inline-block;
+}
+
+code, .hamburger {
+	vertical-align: middle;
+}
+
+#name {
+	cursor: pointer;
+	padding-left: 15px;
+	margin-bottom: 15px;
+}
+
+h2{
+	margin-bottom: 0;
+}
+
+.info {
+	/*font-size: .7em;*/
+	/*color: #999;*/
+}
+
+#clear {
+	margin-top: 1.3em;
+	cursor: pointer;
+}
+
+.etc-nav:hover, .project-nav:hover {
+	background-color: #000;
+	color: white;
+	cursor: pointer;
+}
+
+.project-nav{
+	background-color: #FFF;
+}
+
+.project-container {
+	/*margin-top: 1em;*/
+}
+
+#project-list{
+	margin-bottom: 10px;
+}
+
+#experiments {
+	margin-top: 10px;
+	cursor: pointer;
+}
+
+.etc-nav, .project-nav {
+	margin-left: 10px;
+	position: relative;
+}
+
+#displayemail {
+	/*margin-top: 1em;*/
+}
+
+.video {
+	margin-bottom: 10px;
+	padding-left: 0;
+	height: 180px;
+}
+
+@media (min-width: 992px) {
+	/*#displayemail { margin-top: 5.5em; }*/
+	/*#project { margin-top: 5.5em; }*/
+	.video { height: 500px; }
+}
+
+#footer{
+	bottom: 0px;
+	position: fixed;
+	left: 0px;
+	margin: 0;
+	padding: 10px;
+	background-color: white;
+}
+
+.description {
+	margin-bottom: 1em;
+}
+
+a {
+	color: black;
+}
+.project-container img{
+	padding-left: 0;
+	margin-bottom: 10px;
+}
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	margin-top: 5px;
+	display: inline-block;
+	text-decoration: underline;
+
+}
+
+#contact{
+	font-size: .8em;
+	position: relative;
+	display: inline-block;
+	left: calc(50% - 133px);
+}
+
+#email, #resume {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.summary {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 150px;
+    background-color: black;
+    color: white;
+    z-index: 100;
+    padding: 0px 5px;
+    font-size: .8em;
+    /*width: 500px;*/
+}
+
+.project-nav:hover .summary, .etc-nav:hover .summary { 
+   display: inline-block;
+}
+
