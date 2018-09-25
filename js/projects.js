@@ -25,7 +25,7 @@ var projects = {
 			images : ["images/round/round01.jpg", "images/round/round02.png", "images/round/round05.png", "images/round/round06.png", "images/round/round07.png"],
 			vimeo : [],
 			youtube : []
-		},
+		}/*,
 		{
 			title : "Do It",
 			type : "animation",
@@ -85,6 +85,6 @@ var projects = {
 			images : ["images/sunglasses/sunglasses.gif"],
 			vimeo : [],
 			youtube : ["https://www.youtube.com/embed/0c87tY9SYs4"]
-		}
+		}*/
 	]
 }
