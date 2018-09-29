@@ -3,14 +3,14 @@ var projects = {
 		"food", "outdoors", "art", "academic"
 	],
 	about : {
-		text : [ "Hey!", "I'm an environmentalist, artist, educator, cook, maker based in Brooklyn."],
+		text : [ "Hey!", "I'm an environmentalist, artist, educator, cook, explorer based in Brooklyn."],
 		resume : [src="images/resume.pdf"]
 	},
 	main : [
 		{
-			title : "Farming/Gardening",
+			title : "Farming",
 			type : "food",
-			description : [""],
+			description : ["From building my own rooftop garden to leading workshops on one of the most famous, from learning about permaculture on a student farm to distributing local produce in a co-op, I have always loved to get my toes dirty and hold fresh, warm produce in my hands."],
 			haslink : false,
 			links : [""],
 			images : [],
@@ -18,9 +18,9 @@ var projects = {
 			youtube : []
 		},
 		{
-			title : "Cooking Projects",
+			title : "Cooking",
 			type : "food",
-			description : [""],
+			description : ["Cooking experiments at home"],
 			haslink : false,
 			links : [""],
 			images : [],			
