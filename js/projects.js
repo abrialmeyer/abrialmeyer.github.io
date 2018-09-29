@@ -11,7 +11,7 @@ var projects = {
 			type : "food",
 			description : [""],
 			links : [""],
-			images : ["images/earthquake/earthquake1.png", "images/earthquake/earthquake2.png"],
+			images : [],
 			vimeo : [],
 			youtube : []
 		},
@@ -21,7 +21,7 @@ var projects = {
 			description : [""],
 			haslink : false,
 			links : [""],
-			images : ["images/round/round01.jpg", "images/round/round02.png", "images/round/round05.png", "images/round/round06.png", "images/round/round07.png"],
+			images : [],			
 			vimeo : [],
 			youtube : []
 		},
@@ -31,7 +31,7 @@ var projects = {
 			description : ["The Pacific Crest Trail is a 2652 mile long national scenic trail that runs from the Mexican border to the Canadian border, through the hot Southern California desert, the Sierra Nevada mountains, the rolling hills and ridges of Northern California, the lakes and volcanoes of Oregon, and the dense forests and snowy mountains of Washington."],
 			haslink : false,
 			links : [""],
-			images : ["images/doit/doit01.png", "images/doit/doit02.png", "images/doit/doit03.png"],
+			images : [],
 			vimeo : [],
 			youtube : []
 		},
@@ -51,7 +51,7 @@ var projects = {
 			description : [""],
 			haslink : false,
 			links : [""],
-			images : ["images/headhaiku/headhaiku.gif"],
+			images : [],
 			vimeo : [],
 			youtube : []
 		},
@@ -62,16 +62,16 @@ var projects = {
 			haslink : false,
 			links : [""],
 			images : [],
-			vimeo : ["https://player.vimeo.com/video/128754679?title=0&byline=0&portrait=0"],
+			vimeo : [],
 			youtube : []
 		},
 		{
-			title : "Senior Essay",
+			title : "Microbiome",
 			type : "academic",
 			description : [""],
 			haslink : false,
 			links : [""],
-			images : ["images/segue/segue1.png", "images/segue/segue2.png", "images/segue/segue3.png"],
+			images : [],
 			vimeo : [],
 			youtube : []
 		},
