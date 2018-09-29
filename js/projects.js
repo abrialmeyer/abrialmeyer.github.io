@@ -10,6 +10,7 @@ var projects = {
 			title : "Farming/Gardening",
 			type : "food",
 			description : [""],
+			haslink : false,
 			links : [""],
 			images : [],
 			vimeo : [],
