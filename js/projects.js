@@ -4,6 +4,7 @@ var projects = {
 	],
 	about : {
 		text : [ "Hey!", "I'm an environmentalist, artist, educator, cook, maker based in Brooklyn."],
+		resume : ["images/resume.pdf"]
 	},
 	main : [
 		{
