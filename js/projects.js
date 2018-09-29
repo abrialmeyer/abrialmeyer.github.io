@@ -13,7 +13,7 @@ var projects = {
 			description : ["From building my own rooftop garden to leading workshops on one of the most famous, from learning about permaculture on a student farm to distributing local produce in a co-op, I have always loved to get my toes dirty and hold fresh, warm produce in my hands."],
 			haslink : false,
 			links : [""],
-			images : [],
+			images : ["images/IMG_3395.JPG","images/IMG_3731.JPG"],
 			vimeo : [],
 			youtube : []
 		},
@@ -23,7 +23,7 @@ var projects = {
 			description : ["Cooking experiments at home"],
 			haslink : false,
 			links : [""],
-			images : [],			
+			images : ["images/IMG_3223.JPG"],			
 			vimeo : [],
 			youtube : []
 		},
@@ -33,7 +33,7 @@ var projects = {
 			description : ["The Pacific Crest Trail is a 2652 mile long national scenic trail that runs from the Mexican border to the Canadian border, through the hot Southern California desert, the Sierra Nevada mountains, the rolling hills and ridges of Northern California, the lakes and volcanoes of Oregon, and the dense forests and snowy mountains of Washington."],
 			haslink : false,
 			links : [""],
-			images : [],
+			images : ["images/IMG_6191.JPG","images/IMG_6578.JPG","images/IMG_6677.JPG","images/IMG_7044.JPG","images/DSC01845.JPG","images/IMG_7888.JPG","images/DSC02017.JPG"],
 			vimeo : [],
 			youtube : []
 		},
