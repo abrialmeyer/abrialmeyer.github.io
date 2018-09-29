@@ -109,7 +109,7 @@ function listen() {
 
 	$('#email').click(function(){
 		clearproject();
-		$('#project').html('<div id="displayemail"> abswa[at]salterpoint[dot]org </div>')
+		$('#project').html('<div id="displayemail"> abrial[at]abrialmeyer[dot]com </div>')
 	})
 
 	$('#about').click(function(){
