@@ -7,19 +7,18 @@ var projects = {
 	},
 	main : [
 		{
-			title : "Rooftop garden",
+			title : "Farming/Gardening",
 			type : "food",
-			description : ["In progress project as part of fellowship at American Museum of Natural History. To be completed in June 2017.", "The Discovery Room offers families, and especially children ages 5-12, an interactive gateway to the wonders of the Museum and a hands-on, behind-the scenes look at its science. Every major field of Museum science and research, from anthropology to zoology, is represented. Children, accompanied by adults, can explore an array of artifacts and specimens, puzzles, and scientific challenges. Activities for older visitors (aged 8+) are located on the upper level.", "The current earthquake exhibit lets visitors track real-time earthquakes on a three-drum seismograph as well as mapping earthquake locations on a digital map of the world.", "Unfortunately, the seismograph no longer works and interest in the exhibit has waned.",  "By redesigning the exhibit as my Helen Fellowship project, I hope to bring new interaction and reinvigorate excitement around earthquake education and awareness.", "For documentation about the design and development process, please see the case study."],
-			haslink : false,
+			description : [""]
 			links : [""],
 			images : ["images/earthquake/earthquake1.png", "images/earthquake/earthquake2.png"],
 			vimeo : [],
 			youtube : []
 		},
 		{
-			title : "Fermentation",
+			title : "Cooking Projects",
 			type : "food",
-			description : ["Round is a tool to help users cultivate a well-rounded point of view. A Chrome extension that tracks online news consumption habits and provides easy to read quantitative feedback as an impetus for self-change.", "Thesis Abstract: The propagation of content sharing on social media has drastically changed the way that we experience the news. Instead of going directly to complete and curated primary sources we are fed through secondary sharing and predictive content algorithms. While this is convenient for casual online browsing, the news that is delivered in this system tends to be highly trend-driven, extremely biased, and narrow in topical scope. To address this issue of unbalanced news consumption and general lack of erudite knowledge, I created a browser extension called Round.", "Round began as a project called 'Segue,' a browsing platform for news media, where a database of articles would be connected through hyperlink style keyword connections, allowing users to switch from one article through semantic connections.", "Through several rounds of user testing and research, Segue transitioned into Round, instead of providing a set browsing experience I allowed the user to browse the news as their existing habits dictated. The tool focused on providing feedback on these habits. At this point, the project had completely stepped away from the idea of alternative browsing and new content discovery and focused instead on helping users become well rounded news consumers through reflection on habits. It became more about tracking what and how the user reads and giving feedback through data visualization. This focus on the quantified self as a means for change stems from a desire to prompt change from within instead of forcing it. By letting users recognize their deficiencies on their own they can become their own means for change as desired.", "For more information about the development process of Round, please see the case study."],
+			description : [""]
 			haslink : false,
 			links : [""],
 			images : ["images/round/round01.jpg", "images/round/round02.png", "images/round/round05.png", "images/round/round06.png", "images/round/round07.png"],
@@ -35,7 +34,7 @@ var projects = {
 			images : ["images/doit/doit01.png", "images/doit/doit02.png", "images/doit/doit03.png"],
 			vimeo : [],
 			youtube : []
-		}/*,
+		},
 		{
 			title : "Amazon Alicia",
 			type : "design",
@@ -85,6 +84,6 @@ var projects = {
 			images : ["images/sunglasses/sunglasses.gif"],
 			vimeo : [],
 			youtube : ["https://www.youtube.com/embed/0c87tY9SYs4"]
-		}*/
+		}
 	]
 }
