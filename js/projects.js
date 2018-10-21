@@ -46,7 +46,7 @@ var projects = {
 			images : [],
 			vimeo : [],
 			youtube : []
-		},
+		},/*
 		{
 			title : "Sustainability",
 			type : "academic",
@@ -76,6 +76,6 @@ var projects = {
 			images : [],
 			vimeo : [],
 			youtube : []
-		},
+		},*/ 
 	]
 }
