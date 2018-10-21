@@ -10,7 +10,7 @@ var projects = {
 		{
 			title : "Farming",
 			type : "food",
-			description : ["From building my own rooftop garden to leading workshops on one of the most famous, from learning about permaculture on a student farm to distributing local produce in a co-op, I have always loved to get my toes dirty and hold fresh, warm produce in my hands."],
+			description : ["From building my own rooftop garden to leading educational workshops on one of the most famous rooftop farms, from learning about permaculture on a student farm to distributing local produce in a co-op, I have always loved to get my toes dirty and hold fresh, warm produce in my hands."],
 			haslink : false,
 			links : [""],
 			images : ["images/IMG_3395.JPG","images/IMG_3731.JPG"],
