@@ -40,10 +40,10 @@ var projects = {
 		{
 			title : "Art",
 			type : "art",
-			description : [""],
+			description : ["Prints using various techniques: etching, woodcut, cardboard"],
 			haslink : false,
 			links : [""],
-			images : [],
+			images : ["IMG_8157.jpg","IMG_8145.jpg","IMG_8162.JPG","IMG_8156.jpg","IMG_8143.jpg","IMG_8144.jpg","IMG_8161.jpg","IMG_8155.jpg"],
 			vimeo : [],
 			youtube : []
 		},/*
